@@ -466,7 +466,7 @@ footer p {
       font-size: 35px;
     }
     .hero-text p {
-      font-size: 17px;
+      font-size: 16px;
     }
     .hero-image {
       background: url('Assets/Hero Image (Mobile).png');
@@ -477,9 +477,9 @@ footer p {
       height: 70%;
     }
     input {
-      font-size: 1rem;
-      width: 180px;
-      padding: 15px;
+      font-size: 16px;
+      width: 170px;
+      padding: 8px;
     }
 
     /* Logo Section */
