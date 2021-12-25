@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spence Landing Page</title>
+    <link rel="stylesheet" href="index.css">
+  </head>
+  <body>
+    <div class="top-section">
+      <p>🎉 To celebrate Spense's launch, we will be waiving all fees for the entire month of April.</p>
+      <p class="underline">You will be receiving 100% of the earnings.</p> <span>🎉</span>
+    </div>
+    <header>
+        <div class="nav-bar">
+          <a href="#" class="main-link">spense.</a>
+          <img src="Assets/Hamburger Menu.svg" class="menu-btn" id='menuBtn'>
+          <nav id="navLinks">
+            <ul class="main-links">
+              <li><a href="#">Business</a></li>
+              <li><a href="#">Pricing</a></li>
+              <li><a href="#">Features</a></li>
+            </ul>
+            <ul>
+              <li><a href="#">Login</a></li>
+              <button type="button">Get Started</button>
+            </ul>
+          </nav>
+        </div>
+        <div class="hero-section">
+          <div class="hero-text">
+            <h1>Share your unfiltered thoughts. Get paid.</h1>
+            <p>
+              Spense is an open platform for individuals to share their unfiltered thoughts. Discuss the topics you love,
+              and get paid for doing <span>just</span> that.
+            </p>
+            <div class="checklist">
+              <img src="Assets/Checkmark.svg">
+              <p>Receive 99% off the earnings.</p>
+            </div>
+            <div class="checklist">
+              <img src="Assets/Checkmark.svg">
+              <p>Get paid via Debit Card, ACH, or PayPal.</p>
+            </div>
+            <div class="checklist last">
+              <img src="Assets/Checkmark.svg">
+              <p>Withdraw your earnings anytime.</p>
+            </div>
+            <input type="email" placeholder="john@example.com">
+            <button type="button">Get Started</button>
+          </div>
+          <div class="hero-image">
+            <!-- <img src="Assets/Hero Image (Desktop).png"> -->
+          </div>
+        </div>
+    </header>
+    <section>
+      <div class="logos">
+        <img src="Assets/Facebook Logo.png">
+        <img src="Assets/Dribbble Logo.png">
+        <img src="Assets/Youtube Logo.png">
+        <img src="Assets/Pinterest Logo.png">
+        <img src="Assets/Twitter Logo.png">
+        <img src="Assets/Reddit Logo.png">
+        <img src="Assets/Google Logo.png">
+        <img src="Assets/Slack Logo.png">
+      </div>
+      <div class="escrow-section">
+        <div class="escrow-text">
+          <h1>Secure your money with Escrow.</h1>
+          <p>
+            Spense uses Escrow to secure all payments. We believe Escrow offers the highest level of security for your
+            payments, so you never need to worry about scams.
+          </p>
+          <a href="#">Learn more about Escrow →</a>
+        </div>
+        <div class="escrow-image">
+          <img src="Assets/Phone Mockup (Desktop).png" class="phone-mockup-desktop">
+          <img src="Assets/Phone Mockup (Tablet).png" class="phone-mockup-tablet">
+          <img src="Assets/Phone Mockup (Mobile).png" class="phone-mockup-mobile">
+        </div>
+      </div>
+    </section>
+    <section class="text-editor">
+      <div class="text-editor-container">
+        <div class="text-editor-image">
+          <!-- <img src="Assets/Text Editor.png"> -->
+        </div>
+        <div class="text-editor-text">
+          <h1>A text editor like no other</h1>
+          <p>
+            Our text editor pulls you into focus mode with it's simplistic design and usability so you can put out your best
+            writings.
+          </p>
+          <a href="#">Text Editor Live Demo →</a>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="description footer-links">
+        <a href="#" class="footer-header">Spense</a>
+        <p>
+          Spense is an open platform for individuals to share their unfiltered thoughts. Discuss the topics you love,
+          and get paid for doing <span>just</span> that.
+        </p>
+      </div>
+
+      <div class="section-one">
+        <div class="sitemap footer-links">
+          <a href="#" class="footer-header">Sitemap</a>
+          <a href="#">Homepage</a>
+        </div>
+        <div class="resources footer-links">
+          <a href="#" class="footer-header">Resources</a>
+          <a href="#">Support</a>
+          <a href="#">Contact</a>
+          <a href="#">FAQ</a>
+        </div>
+      </div>
+      <div class="section-one">
+        <div class="company footer-links">
+          <a href="#" class="footer-header">Company</a>
+          <a href="#">About</a>
+          <a href="#">Customers</a>
+          <a href="#">Blog</a>
+        </div>
+        <div class="opportunities footer-links">
+          <a href="#" class="footer-header">Opportunities</a>
+          <a href="#">Jobs</a>
+        </div>
+      </div>
+    </footer>
+    <script type="text/javascript">
+      var menuBtn = document.getElementById("menuBtn");
+      var navLinks = document.getElementById("navLinks");
+
+      navLinks.style.right = "-250px";
+
+      menuBtn.onclick = function(){
+        if (navLinks.style.right == "-250px") {
+          navLinks.style.right = "0";
+        }
+        else {
+          navLinks.style.right = "-250px";
+        }
+      }
+    </script>
+  </body>
+</html>
